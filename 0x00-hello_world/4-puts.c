@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
  *using puts() fxn in the main function
  */
 int main(void)

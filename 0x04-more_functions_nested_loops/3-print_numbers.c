@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 void print_numbers()
 {
@@ -6,8 +6,8 @@ void print_numbers()
 	i = 0;
 	while (i < 10)
 	{
-		printf("%d",i);
+		_putchar(i);
 		i++;
 	}
-	printf("\n");
+	_putchar('\n');
 }

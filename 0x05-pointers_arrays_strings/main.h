@@ -10,3 +10,4 @@ void puts_half(char *);
 char *_strcpy(char *, char *);
 void print_array(int *, int);
 int _atoi(char *);
+void rev_string(char *);

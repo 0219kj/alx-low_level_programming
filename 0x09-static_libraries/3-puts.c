@@ -1,15 +1,10 @@
 #include "main.h"
-/**
- * _puts - prints a string
- * @str : char argument
- * Return void
- */
-void _puts(char *str)
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+void _puts(char *s)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+    puts(s);
 }
